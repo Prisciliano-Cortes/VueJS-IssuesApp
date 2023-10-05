@@ -1,0 +1,45 @@
+{
+  "name": "issues-app",
+  "version": "0.0.1",
+  "description": "Isusses app",
+  "productName": "Issues-App",
+  "author": "Prisciliano Cortés <pris98.cortes@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.7",
+    "@tanstack/vue-query": "^4.35.7",
+    "@vavt/md-editor-extension": "^3.0.0",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "md-editor-v3": "^4.7.0",
+    "pinia": "^2.1.6",
+    "quasar": "^2.12.7",
+    "vue": "^3.3.4",
+    "vue-markdown-render": "^2.1.0",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.6.2",
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
